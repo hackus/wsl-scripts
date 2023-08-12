@@ -7,6 +7,9 @@ Windows "run with admin rights" feature appart and I would have been able to cre
 
 After runing these scripts you will be able to run docker and docker-compose on your machine.
 
+# Note
+Setup_12_Dos2unix_WSL.sh is needed to modify line ending to unix style. I have already modified them, you can skip it. 
+
 # Legend:
 ```
 For some it may sound redundant but I also forget this stuff if not using for a long period
