@@ -8,8 +8,8 @@ Windows "run with admin rights" feature appart and I would have been able to cre
 After runing these scripts you will be able to run docker and docker-compose on your machine.
 
 Legend:
-# For some it may sound redundant but I also forget this stuff if not using for a long period:
-## Scripts ending with GitBash should be run on GitBash
-## Scripts ending with Admin should be run with admin rights. 
-## Scripts ending with WSL should be run withing WSL linux.
-## Scripts ending with Powershell should be run in Powershell.
+#For some it may sound redundant but I also forget this stuff if not using for a long period:
+##Scripts ending with GitBash should be run on GitBash
+##Scripts ending with Admin should be run with admin rights. 
+##Scripts ending with WSL should be run withing WSL linux.
+##Scripts ending with Powershell should be run in Powershell.
