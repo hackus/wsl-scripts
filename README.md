@@ -1,5 +1,5 @@
 # wsl-scripts
-These script are a complete set of actions needed to start with WSL on windows. 
+These scripts are a complete set of actions needed to start with WSL on windows. 
 It follows the actions described in this article https://dev.to/bowmanjd/install-docker-on-windows-wsl-without-docker-desktop-34m9
 There are some additional sctips to solve particular problems which are not described in the article.
 
