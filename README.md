@@ -9,7 +9,7 @@ After runing these scripts you will be able to run docker and docker-compose on 
 
 # Legend:
 ```
-For some it may sound redundant but I also forget this stuff if not using for a long period:
+For some it may sound redundant but I also forget this stuff if not using for a long period
 Scripts ending with GitBash should be run on GitBash
 Scripts ending with Admin should be run with admin rights. 
 Scripts ending with WSL should be run withing WSL linux.
