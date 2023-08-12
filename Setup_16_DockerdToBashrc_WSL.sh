@@ -2,7 +2,7 @@
 filename=~/.bashrc_backup_2
 
 if [ -f $filename ]; then
-	echo bashrc_backup_2 already exists
+  echo bashrc_backup_2 already exists
 else
   cp ~/.bashrc ~/.bashrc_backup_2
 fi
@@ -15,6 +15,8 @@ grep -F 'DOCKER_DISTRO="Ubuntu-22.04"' ~/.bashrc || (echo >> ~/.bashrc \
  && echo 'if [ ! -S "$DOCKER_SOCK" ]; then' >> ~/.bashrc \
  && echo '    mkdir -pm o=,ug=rwx "$DOCKER_DIR"' >> ~/.bashrc \
  && echo '    chgrp docker "$DOCKER_DIR"' >> ~/.bashrc \
- && echo '    /mnt/c/Windows/System32/wsl.exe -d $DOCKER_DISTRO sh -c "nohup sudo -b dockerd < /dev/null > $DOCKER_DIR/dockerd.log 2>&1"' >> ~/.bashrc \
+ && echo '    nohup sudo -b dockerd -H $DOCKER_HOST < /dev/null > $DOCKER_DIR/dockerd.log 2>&1' >> ~/.bashrc \
  && echo 'fi' >> ~/.bashrc \
  && echo  >> ~/.bashrc)
+ 
+source ~/.bashrc
