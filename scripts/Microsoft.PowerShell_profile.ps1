@@ -1,5 +1,5 @@
 $DOCKER_DISTRO="Ubuntu-22.04"
-$DOCKER_DIR=/mnt/wsl/shared-docker
+$DOCKER_DIR="/mnt/wsl/shared-docker"
 $DOCKER_SOCK="$DOCKER_DIR/docker.sock"
 $DOCKER_HOST="unix://$DOCKER_SOCK"
 function docker {
