@@ -10,3 +10,11 @@ function docker-compose {
 	echo $DOCKER_DISTRO
     wsl -d $DOCKER_DISTRO docker-compose @Args
 }
+function kubectl {
+	echo $DOCKER_DISTRO
+    wsl -d $DOCKER_DISTRO kubectl @Args
+}
+function k3d {
+	echo $DOCKER_DISTRO
+    wsl -d $DOCKER_DISTRO k3d @Args
+}
