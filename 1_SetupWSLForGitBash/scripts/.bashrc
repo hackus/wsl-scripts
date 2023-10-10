@@ -39,3 +39,10 @@ function kubectl {
 		/c/Windows/System32/wsl -d $DOCKER_DISTRO kubectl $@
 	fi
 }
+
+function grype {
+	if [ ! -S "$DOCKER_SOCK" ]; then
+		echo running grype
+		/c/Windows/System32/wsl -d $DOCKER_DISTRO grype $@
+	fi
+}
