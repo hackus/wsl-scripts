@@ -16,10 +16,15 @@ attempt_num=1
 # Set a flag to indicate whether the command was successful
 success=false
 
+
+#Set proper git-bash dir on windows below
+echo Set proper git-bash dir on windows below
+bash -c '"C:\Program Files\Git\git-bash.exe" -c wsl &'
+
 while [ $success = false ] && [ $attempt_num -le $max_attempts ]; do
   # Execute the command
   echo "TODO Replace this line with the actual command to execute"
-
+  
   # Check the exit code of the command
   if [ `wsl -l -v | awk -v col=6 '{print $col}'` = 'Running' ]; then
     success=true
